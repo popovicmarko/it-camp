@@ -1,0 +1,13 @@
+
+body > div > div > div.datum
+{
+    display: inline-block;
+}
+body > div > div > div.tekst{
+    display: inline-block;
+}
+.card
+{
+    border-bottom: 1px solid black;
+}
+a
