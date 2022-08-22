@@ -1,0 +1,186 @@
+:root{
+    --bluebojafonta: #94958f;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+.cointainer{
+    display: flex;
+    margin: 3em;
+    margin-right: 5em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    
+
+}
+.levo
+{
+    display: flex;
+}
+
+.linija
+{
+    width: 0.3rem;
+    height: 34rem;
+    background-color: #e3e4e1;
+    margin-left: 100px;
+    margin: 5rem;
+    margin-bottom: 0%;
+    
+}
+.krug
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #6366f1;
+    margin-left: -1.4rem;
+    margin-top: 5rem;
+
+}
+svg{
+    width: 3.5ch;
+    height: auto;
+    color: white;
+    margin-left: .58em;
+    margin-top: .57em;
+}
+.tekst
+{
+    margin: 0%;
+    margin-top: .6em;
+    
+}
+.paragraf
+{
+    
+    width: 32rem;
+    height: auto;
+    margin-left: -2em;
+    margin-top: 4em;
+}
+ 
+ .paragraf>h4
+{
+
+    margin: 0%;
+}
+.paragraf>p{
+    margin: 0%;
+
+    margin-top: .4em;
+}
+.prvi
+{
+    margin-top: -.2em;
+}
+
+.drugi
+{
+    margin-top: 3.6em;
+}
+.treci
+{
+    margin-top: 3.5em;
+}
+.cetvrti
+{
+    margin-top: 3.4em;
+}
+.peti
+{
+    margin-top: 3.4em;
+}
+
+p{
+    color: var(--bluebojafonta);
+}
+h4
+{
+    font-weight: 500;
+}
+
+.desno
+{
+    width: 100%;
+    height: auto;
+    background-color: #e3e4e1;
+    min-height:100% ;
+    display: grid;
+    place-items: center;
+    margin-left: 3em;
+    margin-top: 4em;
+}
+    
+.brojke
+{
+    font-size: 10em;
+    font-weight: 100;
+    color: var(--bluebojafonta);
+    
+}
+@media screen and (max-width:760px)
+{
+    .linija
+
+    {
+        height: 37rem;
+
+    }
+    .krug
+    {
+        margin-top: 6rem;
+    }
+    .prvi
+    {
+        margin-top: 0%;
+    }
+    .cointainer{
+        flex-direction: column;
+        margin: 0%;
+    }
+    .levo
+    {
+        margin-left: -2.3em;
+        width: 100vw;
+    }
+    .desno
+    {
+        width: 91%;
+        font-size: .2em;
+        margin-top: 13em;
+        margin: 18em 4em 18em 4em;
+        
+
+    }
+    .brojke
+    {
+        margin: 1em;
+    } .tekst
+    {
+        margin-top: 3.9em;
+        margin-left: -2em;
+    }
+    .paragraf
+    {
+        width: 100%;
+        margin: 0%;
+        margin-top: 1em;
+    }
+    .drugi
+    {
+        margin-top: 2.2em;
+    }
+    .treci
+    {
+        margin-top: 2em;
+    }
+
+    .cetvrti
+    {
+        margin-top: 3.2em;
+    }
+    .peti
+    {
+        margin-top: 2.2em;
+    }
+}
+
