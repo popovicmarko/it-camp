@@ -1,0 +1,205 @@
+:root
+{
+    --dugme: #6366f1;
+    --font: #94958f;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+.cointainer{
+    margin: .2rem;
+    min-height:100vh ;
+    display: grid;
+    place-items: center;
+   
+}
+.top p
+{
+    margin-top: 0%;
+}
+.top
+{
+
+    text-align: center;
+}
+.xox
+{
+text-align: center;
+display: inline-flex;
+border: 2px solid var(--dugme);
+border-radius:.4rem ;
+padding: 0%;
+margin: 0%;
+}
+
+.levi
+{
+    background-color: white;
+    padding: .4rem 1.2rem .4rem 1.2rem;
+    margin: 0%;
+    color: var(--font);
+    font-weight: 400;
+    border-radius: .2rem 0rem 0rem .2rem;
+}
+.desni
+{
+    background-color: white;
+    padding: .4rem 1rem .4rem 1rem;
+    margin: 0%;
+    color: var(--font);
+    font-weight: 400;
+    border-radius: .0rem .2rem .2rem 0rem;
+}
+.active
+{
+    background-color: #6366f1;
+    color: white;
+}
+.kashaa{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 0rem;
+    gap: 1.5rem;
+    justify-content: center;
+    
+}
+.card
+{
+    border: solid 2px var(--font) ;
+    border-radius: 0.5rem;
+    /* margin-left: 2rem; */
+    padding: 1rem 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    
+}
+.pr
+{
+    margin: 0%;
+}
+.header h4, .naslov
+{
+    margin: 0%;
+}
+.naslov
+{
+    display: flex;
+}
+
+.naslov p{
+    font-size: 1.2rem;
+    min-height:100% ;
+    display: grid;
+    place-items: center;
+    margin-left: .4rem ;
+    color: var(--font);
+}
+.header
+{
+    border-bottom: 1px solid rgb(233, 232, 232);
+}
+.flex
+{
+    display: flex;
+
+}
+.w-3{
+
+    width: 0.75rem;
+    height: 0.75rem;
+    display: block;
+    vertical-align: middle;
+    background-color: silver;
+    border-radius: 50%;
+    padding: .1rem;
+    margin-right: .5rem;
+}
+.card p{
+    place-items: center;
+    margin: .5rem 0rem;
+}
+.card h4{
+    color: rgb(105, 101, 101);
+}
+.popular
+{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: #94958f;
+    padding: .1rem;
+    color: white;
+    background-color:#94958f;
+    padding: .1rem .8rem .1rem .8rem;
+    font-size: .9rem;
+    border-radius: 0rem 0.3rem 0rem 0.5rem;
+}
+.dr{
+    border: solid 2px var(--dugme)
+
+}
+.button
+{
+    background-color: silver;
+    padding: .7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: auto;
+}
+.margin-bot
+{
+    margin-top: 1rem;
+}
+.w-4
+{
+    width: 1rem;
+    margin-left: auto;
+}
+.prva
+{
+    margin-top: 5.6rem;
+}
+.druga
+{
+    margin-top: 3.3rem;
+}
+.w-4
+{
+    margin-left: auto;
+}
+.font
+{
+    font-size: .75rem;
+    flex-shrink: 2;
+
+}
+
+.button:hover
+{
+    background-color: rgb(126, 121, 121);
+}
+.card:hover
+{
+    border: solid 2px rgb(112, 112, 255);
+}
+.blue
+{
+    background-color: #6366f1;
+}
+.blue:hover
+{
+    background-color: #2f32f7;
+}
+@media only screen and (max-width: 720px)
+ {
+  .kashaa
+  {
+    
+    margin: 0%;
+  }  
+  .card
+  {
+    margin: 0%;
+    margin-top: 2rem;
+  }
+}
