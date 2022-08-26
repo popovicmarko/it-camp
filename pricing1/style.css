@@ -14,11 +14,14 @@
 .top p
 {
     margin-top: 0%;
+    color: var(--font);
 }
 .top
 {
 
     text-align: center;
+}
+h1{;
 }
 .xox
 {
@@ -28,6 +31,7 @@ border: 2px solid var(--dugme);
 border-radius:.4rem ;
 padding: 0%;
 margin: 0%;
+cursor: pointer;
 }
 
 .levi
@@ -113,6 +117,7 @@ margin: 0%;
     border-radius: 50%;
     padding: .1rem;
     margin-right: .5rem;
+    color: white;
 }
 .card p{
     place-items: center;

@@ -1,0 +1,36 @@
+body
+{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+.tabla
+{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    aspect-ratio: 1/1;
+}
+.red
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+.celija
+{
+    flex-basis: 100%;
+    height:100% ;
+    border: 1px solid black;
+}
+.red:nth-child(odd) .celija:nth-child(odd)
+{
+    background-color: black;
+}
+/* .red:nth-child(even)*/ .celija:nth-child(odd) 
+{
+    background-color: rgb(241, 4, 4);
+}
+
