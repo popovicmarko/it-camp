@@ -1,131 +1,133 @@
-body
-{
+body {
     font-size: 16px;
     background-image: url("pozadina.jpg");
     background-size: 100%;
     overflow: hidden;
+
 }
-.cointainer
-{
+
+.cointainer {
     margin-top: 20rem;
+    perspective: 200px;
 }
-.put{
-    width: 110%;
+
+.put {
+    width: 180%;
     height: 10rem;
     background-color: silver;
     display: flex;
     min-height: 100%;
-    margin: 0%;
+    margin: 0;
     place-items: center;
-    
+    transform: rotateX(30deg) translateX(-30%);
+
 }
-.traka
-{
+
+.traka {
     width: 15%;
     height: 1rem;
     background-color: white;
-    animation-name:traka;
+    animation-name: traka;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-.traka+.traka
-{
-    margin-left: 4rem;
+.traka+.traka {
+    margin-left: 3%;
 }
 
-body > div > div.drvo > img
-{
-    height: 15em;
+body>div>div.drvo>img {
+    height: 18em;
     width: auto;
 }
-.car
-{
-        position:absolute;
-        z-index:3;
-        /* width:700px; */
-        bottom:-40%;
-        left:10%;
-        transform:rotateY(180deg);
-        top: 34%;
+
+.car {
+    position: absolute;
+    z-index: 3;
+    
+    bottom: -40%;
+    left: 10%;
+    transform: rotateY(180deg);
+    top: 30%;
 }
- div.car img, body > div > div.put > div.car.dr > img
-{
+
+div.car img,
+body>div>div.put>div.car.dr>img {
     padding: 0%;
-    width: 500px;
+    width: 600px;
     height: auto;
 }
-body > div > div.drvo > img:nth-child(2)
-{
+
+body>div>div.drvo>img:nth-child(2) {
     float: right;
 }
-.drugi{
+
+.drugi {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    /* transform:rotateY(0deg); */
-    animation-name:car;
+    top: 43%;
+   
+    animation-name: car;
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-       
-    .drvo
-    {
-        animation-name:drvo;
-        animation-duration: 15s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite; 
-        margin-bottom: -.7rem;
-        
-    }
-    .drugi:hover
-    {
-        transform: rotateY(180deg);
-        animation-direction: reverse;
-        /* animation-name:drvo;
-        animation-duration: 15s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite; */
-    }
 
-    @keyframes traka{
-    0%{
-        transform:translateX(0%);
+.drvo {
+    animation-name: drvo;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-bottom: -1.2rem;
+
+}
+
+.drugi:hover {
+    transform: rotateY(180deg);
+    animation-direction: reverse;
+    
+}
+
+@keyframes traka {
+    0% {
+        transform: translateX(0%);
 
     }
 
-    100%{
-        transform:translateX(-140%);
-    } 
-}  
-@keyframes car{
-    0%{
-        transform:translateX(-250%);
-    }
-
-    100%{
-        transform:translateX(200%);
+    100% {
+        transform: translateX(-134%);
     }
 }
-@keyframes drvo{
-    0%{
-        transform:translateX(100%);
+
+@keyframes car {
+    0% {
+        transform: translateX(-250%);
     }
 
-    100%{
-        transform:translateX(-100%);
+    100% {
+        transform: translateX(250%);
     }
-} 
- 
-.drugi>img{
+}
+
+@keyframes drvo {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.drugi>img {
     transform: rotateY(180deg);
 }
-.drugi>img:hover{
+
+.drugi>img:hover {
     transform: rotateY(0deg);
 }
 
-
-
+.traka:nth-child(3){
+    margin-left:8.8%;
+}
