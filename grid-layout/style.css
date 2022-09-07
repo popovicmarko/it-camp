@@ -13,15 +13,18 @@ body
     display: grid;
     background-color: aqua;
     display: grid;
-    grid-template-rows: 4fr 5fr 5fr 5fr 5fr  5fr 5fr 5fr;
+    grid-template-rows: 7fr 5fr 5fr 5fr 5fr  5fr 5fr 5fr 5fr 5fr 13fr;
     grid-template-columns: 20fr 20fr;
     grid-template-areas:
     
     "header header"
      "left-upper right-main-one"
      "left-upper right-main-one"
+     "left-upper right-main-one"
+     "left-upper right-main-two"
      "left-upper right-main-two"
      "left-lower right-main-two"
+     "left-lower right-main-three"
      "left-lower right-main-three"
      "left-lower right-main-three"
      "foother foother"
