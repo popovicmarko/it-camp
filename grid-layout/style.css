@@ -1,0 +1,65 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    place-items: center;
+}
+.cointainer
+{
+    padding: 1rem;
+    width: 50vw;
+    height: 90vh;
+    display: grid;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 4fr 5fr 5fr 5fr 5fr  5fr 5fr 5fr;
+    grid-template-columns: 20fr 20fr;
+    grid-template-areas:
+    
+    "header header"
+     "left-upper right-main-one"
+     "left-upper right-main-one"
+     "left-upper right-main-two"
+     "left-lower right-main-two"
+     "left-lower right-main-three"
+     "left-lower right-main-three"
+     "foother foother"
+    ;
+    gap: 1rem;
+
+}
+.cointainer *{
+    border: solid 1px black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px black;
+}
+.header{
+    grid-area: header;
+    background-color: antiquewhite;
+}
+.left-upper{
+    grid-area: left-upper;
+    background-color: yellow;
+}
+.left-lower{
+    grid-area: left-lower;
+    background-color: yellowgreen;
+}
+
+.foother{
+    grid-area: foother;
+    background-color: red;
+}
+.right-main-one{
+    grid-area: right-main-one;
+    background-color: green;
+}
+.right-main-two{
+    grid-area: right-main-two;
+    background-color: gold;
+}
+.right-main-three{
+    grid-area: right-main-three;
+    background-color: greenyellow;
+}
