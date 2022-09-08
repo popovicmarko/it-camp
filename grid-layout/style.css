@@ -11,8 +11,6 @@ body
     width: 50vw;
     height: 90vh;
     display: grid;
-    background-color: aqua;
-    display: grid;
     grid-template-rows: 7fr 5fr 5fr 5fr 5fr  5fr 5fr 5fr 5fr 5fr 13fr;
     grid-template-columns: 20fr 20fr;
     grid-template-areas:
@@ -39,30 +37,28 @@ body
 }
 .header{
     grid-area: header;
-    background-color: antiquewhite;
+    
 }
 .left-upper{
     grid-area: left-upper;
-    background-color: yellow;
+    
+    
 }
 .left-lower{
     grid-area: left-lower;
-    background-color: yellowgreen;
+    
+    
 }
 
 .foother{
     grid-area: foother;
-    background-color: red;
 }
 .right-main-one{
     grid-area: right-main-one;
-    background-color: green;
 }
 .right-main-two{
     grid-area: right-main-two;
-    background-color: gold;
 }
 .right-main-three{
     grid-area: right-main-three;
-    background-color: greenyellow;
 }
