@@ -1,0 +1,756 @@
+/* SET PROPS */
+:root{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+    --color-accent-red:hsl(4, 100%, 69%);
+    --color-accent-blue: hsl(199, 98%, 47%);
+}
+
+/* RESET */
+
+body{
+    margin: 0%;
+}
+.nav-button>a{
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+/* UTILITIES */
+.red-f{
+    color:var(--color-accent-red);
+}
+
+.blue-f{
+    color:var(--color-accent-blue);
+}
+.home-h{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: relative;
+    z-index: 2;
+    line-height: 44px;
+
+}
+
+.cointener{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 241, 241) ;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    gap: 3.5rem;
+    font-weight: 550;
+    align-items: center;
+    margin: 0%;
+}
+
+
+.nav-button{
+    background-color:var(--color-accent-red);
+    border-radius: 2rem;
+    color:white;
+    padding: 1rem;    
+}
+ /* HOME */
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url(images/baner-dec-left.png);
+    background-size: 100%;
+}
+.home-images{
+flex: 1;
+flex-wrap: wrap;
+}
+.mini-hader{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ff695f;
+    margin-bottom: 15px;
+}
+.down-buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.call{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.call-button{
+    background-color:var(--color-accent-blue);
+    border-radius: 2rem;
+    color:white;
+    padding: 1.2rem;  
+}
+svg{
+    height: 2ch;
+    width: auto;
+    background-color: var(--color-accent-red);
+    border-radius: 50%;
+    padding: .8rem;
+    color: white;
+}
+.number{
+    font-size: 1.1rem;
+}
+
+
+/* Home slider */
+
+
+.home-slider{
+    flex: 1;
+    position: relative;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+.home-slider>input{
+    display: none;
+}
+.home-slider>label{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 0%;   
+    font-size: 1.4rem;
+}
+.two
+{
+    margin-left: 30px;
+}
+
+.three
+{
+    margin-left: 60px;
+}
+label:hover{
+    cursor: pointer;
+    color:var(--color-accent-red);
+}
+.content
+{
+    position:absolute;
+    inset:0;
+    transform: scaleX(0);
+    transition:all .2s linear;
+    transform-origin: left;
+}
+
+.r-one:checked ~ .c-1{
+    transform: scaleX(1);
+    transform-origin:right;
+}
+
+.r-two:checked ~ .c-2{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+.r-three:checked ~ .c-3{
+    transform: scaleX(1);
+    transform-origin:right;
+}
+
+
+input:nth-child(1):checked ~ .one{
+    color:red;
+    border-bottom: 2px solid red;
+    
+  }
+  
+  input:nth-child(2):checked ~ .two{
+    color:red;
+    border-bottom: 2px solid red;
+    
+  }
+  
+  input:nth-child(3):checked ~ .three{
+    color:red;
+    border-bottom: 2px solid red;
+
+  }
+
+
+
+
+
+
+/* SERVICES */
+
+
+
+
+.services{
+    height: 100vh;
+    text-align: center;
+    background-image: url(images/first-plan-bg.png);
+    flex-wrap: wrap;
+}
+.cointener-card-services{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card-services{
+    
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 4rem;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+}
+
+.incon>img{
+    max-width: 100%;
+}
+.card-services-h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.card-services-p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    margin-top: 35px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+.services-h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: relative;
+    z-index: 2;
+    line-height: 44px;
+}
+.opacity-h{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff695f;
+    opacity: 0.15;
+}
+
+
+
+/* services slider */
+
+
+
+
+.home-slider>input{
+    display: none;
+}
+
+.two
+{
+    margin-left: 30px;
+}
+
+.three
+{
+    margin-left: 60px;
+}
+label:hover{
+    cursor: pointer;
+    color:var(--color-accent-red);
+}
+.content-services
+{
+    bottom: 0%;
+    inset:0;
+    transform: scaleX(0);
+    transition:all .2s linear;
+    transform-origin: left;
+}
+
+.r-one:checked ~ .c-1{
+    transform: scaleX(1);
+    transform-origin:right;
+}
+
+.r-two:checked ~ .c-2{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+.r-three:checked ~ .c-3{
+    transform: scaleX(1);
+    transform-origin:right;
+}
+.r-four:checked ~ .c-4{
+    transform: scaleX(1);
+    transform-origin:right;
+}
+
+.content-services{
+    position: relative;
+    /* bottom: 0%; */
+}
+.slider-services{
+    position: relative;
+    bottom: 0%;
+
+}
+
+input:nth-child(1){
+    position: relative;
+    bottom: 0%;
+  }
+  
+  input:nth-child(2){
+    color:red;
+    border-bottom: 2px solid red;
+  }
+  
+  input:nth-child(3){
+    color:red;
+    border-bottom: 2px solid red;
+  }
+
+
+
+
+
+
+
+
+
+
+/* ABOUT CSS */
+
+
+.about{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-image: url(images/first-plan-bg.png3);
+}
+.about-images{
+    width: 50%;
+    align-self: center !important;
+}
+.about-text{
+    width: 50%;
+    flex: 0 0 auto;
+}
+.about-card{
+    margin: .8rem;
+}
+
+.cointener-about-card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.about-h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: relative;
+    z-index: 2;
+    line-height: 44px;
+}
+.about-p
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.count-number{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.count-title{
+    font-size: 15px;
+    color: var(--color-accent-red);
+}
+.count-p{
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 15px;
+}
+
+
+
+
+
+/* PORTFOLIO CSS */
+
+
+.portfolio{
+    text-align: center;
+    background-image: url(images/first-plan-bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.portfolio-cointener-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+.portfolio-card{
+    background-image: url(images/first-plan-bg.png);
+    box-shadow: 1px 1px 5px black;
+    padding: 6rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.h4-header{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.old-price{
+    color: var(--color-accent-red);
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+    text-decoration: line-through;
+    font-style: normal;
+}
+.price{
+    font-size: 44px;
+    color: var(--color-accent-red);
+    font-weight: 700;
+    display: block;
+}
+.portfolio-card-p{
+    display: block;
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+}
+.portfolio-button{
+    display: inline-block;
+    background-color: var(--color-accent-blue);
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    transition: all .3s;
+}
+
+.portfolio-form{
+    background-image: url(images/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 60px 0px;
+    width: 110%;
+    position: relative;
+    right: 5%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.portfolio-form:after{
+    content: '';
+    background-image: url(images/subscribe-dec.png);
+    position: absolute;
+    width: 195px;
+    height: 138px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: -20px;
+    top: -20px;
+}
+.form{
+    width: 65rem;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+.form input
+{
+    width: 38.5%;
+    line-height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: #2a2a2a;
+    border-right: 1px solid #eee;
+}
+.form button{
+    display: inline-block;
+    background-color: #03a4ed;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    width: 20%;
+    margin-right: 10px;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: none;
+    text-align: center; 
+    transition: all .3s;
+}
+
+
+
+/* CONCACT */
+
+
+.concact *{
+    border: none;
+}
+.concact{
+    display: flex;
+    gap: 1rem;
+    margin: 5rem;
+    height: 100vh;
+    background-image: url(images/contact-left-dec.png);
+    background-size: 100%;
+    flex-wrap: wrap;
+}
+
+.map{
+    flex: 1;
+}
+.form-concact{
+   flex: 1;
+   height: 100%;
+   margin-top: 4rem;
+}
+
+#contact {
+    position: relative;
+    z-index: 2;
+    background-image: url(images/contact-form-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    padding: 60px 120px;
+    border-radius: 20px;
+    
+}
+.form-red{
+    margin-top: 1rem;
+    border: none;
+    width: 100%;
+}
+.form-red input{
+    width: 90%;
+    line-height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: #2a2a2a;
+    border-right: 1px solid #eee;
+    border: none;
+    border-bottom: 1px solid var(--color-accent-blue);
+}
+.form-red button{
+    display: inline-block;
+    background-color: var(--color-accent-red);
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    width: 40%;
+    margin-right: 10px;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: none;
+    text-align: center; 
+    transition: all .3s;
+
+}
+
+.info span{
+    opacity: 1;
+    display: inline-flex;
+    margin-right: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff695f;
+    align-items: center;
+    gap: 1rem;
+}
+.info span a{
+    text-decoration: none;
+    color: #ff695f;
+}
+
+
+/* FOOTHER */
+footer{
+    position: relative;
+    top: -5rem;
+}
+
+footer a{
+    text-decoration: none;
+}
+.cointener-card-foother{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-foother{
+    text-align: left;
+}
+.foother-h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+}
+.foother-p{
+    font-size: 15;
+    font-weight: 400;
+    color: #7a7a7a;
+    cursor: pointer;
+}
+.mail{
+    font-size: 20px;
+}
+.incon-foother{
+    height: 1.5rem;
+    width: auto;
+    padding: .5;
+    background-color: var(--color-accent-blue);
+}
+
+.incon-foother:hover{
+    background-color: var(--color-accent-red);
+}
+.copyright{
+    margin: 3rem;
+}
+.copyright p{
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    color: #afafaf;
+    margin-top: 50px;
+    padding: 20px 0px;
+    font-weight: 300;
+}
+
+.copyright a{
+    color: var(--color-accent-red);
+}
+
+@media screen and (max-width:800px){
+    .home {
+        flex-direction: column;
+    }
+    .home-images{
+        display: none;
+        background-size: 100%;
+    }
+    .home-slider{
+        height: auto;
+        margin: 5%;
+    }
+    .home-slider>label{
+        top: 23rem;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .portfolio{
+        margin-top: 10rem;
+        max-width: 20%;
+    }
+    .portfolio-cointener-card{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portfolio-card{
+        max-width: 20%;
+        justify-content: center;
+    }
+    .about{
+        justify-content: center;
+    }
+    
+    .cointener-card-foother {
+        margin-top: 50rem;
+    }
+   .cointener-about-card{
+    flex-direction: column;
+   }
+   .services-h2 {
+    margin-top: 30rem;
+    margin-left: 6rem;
+    width: 35%;
+   }
+   .about-card{
+
+    margin-left: 6rem ;
+   }
+
+}
