@@ -1,8 +1,8 @@
  
 body{
-    display: flex;
+    display: grid;
     justify-content: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .cointainer{
     height: 100vh;

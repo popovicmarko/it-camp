@@ -1,0 +1,36 @@
+
+.cointener{
+    width: 70vw;
+    height: 60vh;
+    border: 1px solid black;
+     
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "navigator c sidebar"
+        "foother foother foother";
+    text-align: center;
+}
+.header{
+    grid-area: header;
+    border: 1px solid black;
+}
+.navigator{
+    grid-area: navigator;
+    border: 1px solid black;
+}
+.content{
+    grid-area: c;
+    border: 1px solid black;
+}
+.sidebar{
+    grid-area: sidebar;
+    border: 1px solid black;
+}
+.foother{
+    grid-area: foother;
+    border: 1px solid black;
+}
+

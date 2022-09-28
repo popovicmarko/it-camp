@@ -1,0 +1,31 @@
+body{
+    display: grid;
+}
+.cointainer{
+    width: 70vw;
+    height: 70vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 3fr 16fr 3fr;
+    grid-template-columns: 4fr 14fr 4fr;
+    grid-template-areas: 
+    "header header header"
+    "main  sidebar "
+    "footer footer footer";
+}
+.header {
+    grid-area: header;
+    background-color: brown;
+  }
+  .main {
+    grid-area: main;
+    background-color: blue;
+  }
+  .sliderbat {
+    grid-area: sidebar;
+    background-color: rgb(43, 226, 134);
+  }
+  .foother {
+    grid-area: footer;
+    background-color: black;
+  }
