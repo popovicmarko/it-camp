@@ -18,3 +18,4 @@ if (upBrojevi % 2  === 0) {
 
 console.log('Broj parnih brojeva je:', parniBroj);
 console.log('Broj neparnih brojeva je:', neparniBroj);
+console.log('Broj neparnih brojeva je:', neparniBroj);
