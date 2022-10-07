@@ -1,26 +1,27 @@
-let firstOperand, secondOperand, Operation, resault
+let prviBroj, drugiBroj, Oper, Rez
 
-while (true) {2
+while (true) {
+    2
 
-    Operation= Number(prompt("Enter one of the following options: \n 0: Exit the programm \n 1: Addition \n 2: Subtraction \n 3: Multiplication \n 4: Division"))
-    firstOperand= Number(prompt("Enter the first member of the operation"))
-    secondOperand= Number(prompt("Enter the second member of the operation"))
+    Oper = Number(prompt("Unesite jednu od sledecih opcija \n 0: Izdji iz programa \n 1: Sabiranje \n 2: Oduzimanje \n 3: Mnozenje \n 4: Deljenje"))
+    prviBroj = Number(prompt("Unesite prvi broj"))
+    drugiBroj = Number(prompt("Unesite drugi broj"))
 
-    if (Operation===0) {
+    if (Oper === 0) {
         break;
     }
-    else if (Operation===1) {
-        resault= firstOperand+secondOperand
+    else if (Oper === 1) {
+        Rez = prviBroj + drugiBroj
     }
-    else if (Operation===2) {
-        resault= firstOperand-secondOperand
+    else if (Oper === 2) {
+        Rez = prviBroj - drugibroj
     }
-    else if (Operation===3) {
-        resault= firstOperand*secondOperand
+    else if (Oper === 3) {
+        Rez = prviBroj * drugiBroj
     }
-    else if (Operation===4) {
-        resault= firstOperand/secondOperand
+    else if (Oper === 4) {
+        Rez = prviBroj / drugiBroj
     }
 
-    alert(`The resault of your operation is ${resault}`)
+    alert(`Resenje operacije: ${Rez}`)
 }
