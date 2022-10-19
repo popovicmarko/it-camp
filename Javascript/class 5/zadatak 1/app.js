@@ -1,5 +1,6 @@
 broj= new Number();
 brojZaTrazenje= Math.floor(Math.random()*100)
+
 while(true){
     broj= Number (prompt("uneiste broj."))    
     if(broj==0 || broj===brojZaTrazenje){

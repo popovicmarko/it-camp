@@ -22,6 +22,3 @@ while (true) {
 console.log(niz)
 console.log(niz.length)
 
-// Ako jeb  broj deljiv sa 3, ispisi Fizz
-//ako je broj deljiv sa 5 da s eispisi Buzz
-//Ako je i sa 3 i ns a5 ispisati FIZZBUZZ

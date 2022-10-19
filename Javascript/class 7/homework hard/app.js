@@ -1,15 +1,15 @@
-// Imamo funkciju koja prima 2 argumenta, 1 argument je niz a drugu je elemnt niza. Funkvija treba da vrati koliko se puta odradjeni elemnt pojavljuje u nizu
+// Imamo funkciju koja prima 2 argumenta, 1 argument je niz a drugu je elemnt niza. Funkcija treba da vrati koliko se puta odradjeni elemnet pojavljuje u nizu
 // [5, 25, ''apple", [25, "apple", "banana", "mango"]]
 
-niz = ["apple", 25, "apple", [25, "apple", "banana", "mango"]]
+niz = ["apple", 25, "apple", [25, "apple","apple", "banana", "mango"]]
 
 
 function Nikola(array, element) {
     brojac = 0;
 
-    for (let i = 0; i < array.length; i++) {
-        if (Array.isArray(array[i])) {
-            for (let j = 0; j < array[i].length; j++) {
+    for (let i = 0; i < array.length; i++) { //prolazimo kroz niz
+        if (Array.isArray(array[i])) {   // ispitiujemo da li je niz na indeksu
+            for (let j = 0; j < array[i].length; j++) { //prolazimo kroz niz u nizu i ispitujemo ima li istih elemenat
                 if (array[i][j] === element) {
                     brojac++
                 }
@@ -17,7 +17,7 @@ function Nikola(array, element) {
         }
         
         else {
-            if (array[i] === element) {
+            if (array[i] === element) { //preborojava iste elementa (ako nije niz)
                 brojac++
             }
         }
@@ -25,4 +25,4 @@ function Nikola(array, element) {
     }
     return brojac;
 }
-console.log(Nikola(niz, "apple"))
+console.log(Nikola(niz, "banana"))
