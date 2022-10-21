@@ -6,7 +6,6 @@
 // vrednostNovcanica=Number(prompt('Uneti vrednost novcanica'))
 
 function vrednostNovca(brojNovcanica5, brojNovcanica10, brojNovcanica20, brojNovcanica50, brojNovcanica100, brojNovcanica200, brojNovcanica500, vrednost) {
-    vrednost=0;
     vrednost =  brojNovcanica5 * 5;
     vrednost = vrednost + (brojNovcanica10 * 10)
     vrednost = vrednost + (brojNovcanica20 * 20)
