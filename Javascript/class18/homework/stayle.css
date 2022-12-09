@@ -1,0 +1,40 @@
+body {
+    background-color:rgb(187, 249, 201);
+    min-height:100vh;
+    margin: 0;
+    display:grid;
+    place-items:center;
+}
+
+.main-button {
+    height:auto;
+}
+
+.todos {
+    padding: .1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+.todo {
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: .5rem;
+    border: .5px solid rgba(0, 0, 0, .3)
+}
+
+button {
+    margin-left: auto;
+    height:1rem;
+background-color: rgb(74, 74, 254);
+border-radius: 0.51rem;
+}
