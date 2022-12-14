@@ -16,12 +16,26 @@ body {
 }
 
 .wrapper {
+    min-width: 50%;
+    min-height: 30%;
     display:flex;
     flex-direction: column;
     gap: 1rem;
     border: 1px solid black;
     border-radius: 2rem;
-    padding: 5rem;
+    padding-bottom: 30px; 
+    align-items: center;
+    background-color: rgb(72, 210, 30);
+}
+
+.form-input{
+    margin: 20px;
+}
+
+body > div > form > div > input[type=text]{
+    width: 400px;
+    height: 30px;
+    border-radius: 1rem;
 }
 
 .todo {
@@ -29,7 +43,15 @@ body {
     justify-content: space-around;
     align-items: baseline;
     padding: .5rem;
-    border: .5px solid rgba(0, 0, 0, .3)
+    border: .5px solid rgba(0, 0, 0, .3);
+    border-radius: 1rem;
+}
+.todo{
+    margin: 1em;
+    border-radius: 1rem;
+}
+.todos{
+    width: 80%;
 }
 
 button {

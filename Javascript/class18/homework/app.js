@@ -11,6 +11,9 @@ submit.addEventListener("click", e=> {
     newTodo.classList.add("todo")
     newTodo.innerHTML = `<p>${mainInput.value}</p>`
     Container.appendChild(newTodo)
+
+
+    
     //X button
     let deleteButton = document.createElement("button")
     deleteButton.textContent = "x"
