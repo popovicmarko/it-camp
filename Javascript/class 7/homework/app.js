@@ -19,6 +19,6 @@ while (true) {
     niz.push(broj)
 }
 
-console.log(niz)
-console.log(niz.length)
+console.log(niz);
+console.log(niz.length);
 
