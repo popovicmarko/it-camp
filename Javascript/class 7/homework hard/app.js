@@ -25,4 +25,4 @@ function Nikola(array, element) {
     }
     return brojac;
 }
-console.log(Nikola(niz, "banana"))
+console.log(Nikola(niz, "banana"));
