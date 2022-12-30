@@ -18,4 +18,4 @@ function Calc(nm1, nm2, operation) {
     }
 }
 
-console.log(Calc(9, 5, '-'))
+console.log(Calc(9, 5, '+'))
