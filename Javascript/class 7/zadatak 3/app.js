@@ -28,4 +28,4 @@ for (let i = 0; i < niz.length; i++) {
 }
 
 console.log("Drugi najveci je", maxdrugi);
-console.log("Drugi najmanji je", mindrugi)
+console.log("Drugi najmanji je", mindrugi);
