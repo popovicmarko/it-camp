@@ -1,16 +1,4 @@
-// const animals = ['Bizon', 'Lav', 'Zirafa', 'Kamila', 'konj' ]
 
-// // console.log(animals.slice(0,3))
-
-// animals.splice(1, 3 , 'Feb')
-// console.log(animals)
-
-// for (let i=0; i<10; i++) {
-//     element= Number(prompt("Ubacite elemente niza"));
-//     niz.push(element)
-// }
-
-// MDN
 
 
 niz = []
