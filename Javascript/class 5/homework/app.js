@@ -1,4 +1,4 @@
-let prviBroj, drugiBroj, Oper, Rez
+let prviBroj, drugiBroj, Oper, Rez;
 
 while (true) {
 
