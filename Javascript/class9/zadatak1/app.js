@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 function unosNiz(niz) {
@@ -43,7 +43,6 @@ obrnutoNiz(niz)
 
 parnostNiz(niz)
 
-=======
 
 
 function unosNiz(niz) {
@@ -88,4 +87,3 @@ obrnutoNiz(niz)
 
 parnostNiz(niz)
 
->>>>>>> f384f0fdb81f33f9972e2fa7c39c31d284c6aef9
