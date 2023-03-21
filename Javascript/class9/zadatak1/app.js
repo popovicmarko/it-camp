@@ -87,3 +87,7 @@ obrnutoNiz(niz)
 
 parnostNiz(niz)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d21881dcc5de3947ed3987153a94adfa9c5a3639

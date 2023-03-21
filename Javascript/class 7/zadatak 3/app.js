@@ -29,6 +29,7 @@ for (let i = 0; i < niz.length; i++) {
 }
 
 console.log("Drugi najveci je", maxdrugi);
+<<<<<<< HEAD
 console.log("Drugi najmanji je", mindrugi)
 
 
@@ -57,3 +58,6 @@ function amountTocoins(number) {
 }
 res = amountTocoins(46)
 console.log(res)
+=======
+console.log("Drugi najmanji je", mindrugi);
+>>>>>>> d21881dcc5de3947ed3987153a94adfa9c5a3639

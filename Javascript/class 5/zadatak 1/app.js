@@ -16,4 +16,4 @@ while(true){
 }
 
 if(broj===brojZaTrazenje){}
-alert("Tacan broj")
+alert("Tacan broj");
